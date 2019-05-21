@@ -1,0 +1,39 @@
+.list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item{
+    padding: 10px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    background: blueviolet;
+    color: aqua;
+    width: 25%;
+    font-size: 14px
+}
+.div{
+    width: 60%;
+}
+
+.title{
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+   
+
+    .item{  
+        width: 74%;
+    font-size: 12px}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .item{  
+        width: 74%;
+    }
+}
